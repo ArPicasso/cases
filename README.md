@@ -1,6 +1,6 @@
 # Pavel Konchakov — Telegram bots, Mini Apps & automation
 
-**[English](#english) · [Русский](#русский)**
+**Website: [arpicasso.github.io/cases](https://arpicasso.github.io/cases/)** · [English](#english) · [Русский](#русский)
 
 Telegram: **[@amipicasso](https://t.me/amipicasso)** · LinkedIn: [pavel-konchakov](https://www.linkedin.com/in/pavel-konchakov) · Munich, Germany
 
@@ -22,9 +22,9 @@ I build Telegram bots and Mini Apps, automations that connect your website, chat
 ### Cases
 
 #### 1. Hockey league fan app — Telegram bot + Mini App
-Fans of the Russian U21 hockey league (all 26 clubs) get the schedule, results, standings, match protocols and player leaders inside Telegram, plus match reminders and a daily mini-game. League data is collected from open sources and rebuilt automatically every hour with GitHub Actions.
+Fans of the Russian U21 hockey league (all 26 clubs) get the schedule, results, standings, match protocols and player leaders inside Telegram, plus match reminders and a daily mini-game. League data was collected from open sources and rebuilt automatically every hour with GitHub Actions.
 - **Stack:** Python, aiogram 3, vanilla JS Mini App, GitHub Actions, GitHub Pages
-- **Live:** [@rhl_u21_bot](https://t.me/rhl_u21_bot) · **Code:** [RHL-BOT](https://github.com/ArPicasso/RHL-BOT) (public part)
+- **Code:** [RHL-BOT](https://github.com/ArPicasso/RHL-BOT) (public part) · project is currently paused
 
 #### 2. Sales pipeline for a web studio — enquiries to Telegram + Google Sheets CRM
 Every enquiry from the website's contact form arrives in the team's Telegram group as a card with buttons. One tap changes the status (testing, postponed, declined, partner) and the change is written to a Google Sheet that works as the CRM. A second module finds leads on Google Maps: local businesses with good ratings (4.3+, 50+ reviews) but no proper website — 12 cities in Georgia and 9 in Uzbekistan, 23 niches.
@@ -69,7 +69,7 @@ Write me on Telegram **[@amipicasso](https://t.me/amipicasso)** with a few lines
 
 ### Кейсы
 
-1. **Приложение для болельщиков хоккейной лиги РХЛ U21** — бот + Mini App: календарь, результаты, таблица, протоколы и лидеры для всех 26 клубов, напоминания о матчах. Данные обновляются автоматически каждый час. [@rhl_u21_bot](https://t.me/rhl_u21_bot) · [код](https://github.com/ArPicasso/RHL-BOT)
+1. **Приложение для болельщиков хоккейной лиги РХЛ U21** — бот + Mini App: календарь, результаты, таблица, протоколы и лидеры для всех 26 клубов, напоминания о матчах. Данные обновлялись автоматически каждый час. Проект сейчас на паузе. [код](https://github.com/ArPicasso/RHL-BOT)
 2. **Воронка продаж для веб-студии** — заявки с сайта приходят в Telegram карточками с кнопками, статусы пишутся в Google Таблицу (CRM). Плюс поиск клиентов в Google Maps: бизнесы с хорошим рейтингом, но без нормального сайта. [код](https://github.com/ArPicasso/fikus-alert-bot)
 3. **Атлас — ИИ-планировщик в Telegram** — пишешь в чат «матрас 160, шторы, роутер», бот через Claude раскладывает по спискам «Купить / Дела / Обсудить», в Mini App — галочки, «Беру», сроки и цены. [код](https://github.com/ArPicasso/Planner)
 4. **Saturn — анонимный чат для практики английского** — правила, XP, монеты, система блокировок, отдельный сайт-справка. [@tgsaturnbot](https://t.me/tgsaturnbot) · [справка](https://arpicasso.github.io/lingobserver-help/)
